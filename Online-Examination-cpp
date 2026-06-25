@@ -1,0 +1,42 @@
+#include <iostream>
+using namespace std;
+int main(){
+    string name;
+    int answer,score=0;
+
+    cout << "Enter Student name:";
+    cin >> name;
+            cout << "\n Online Examination System\n";
+     cout << " \n Q. C++ was developed by?\n";
+             cout << "1. Dennis Ritchie\n2. Bjare Stroustrup\n3.James Gosling\n4.Guido van Rossum\n";
+    cout << "Enter answer:";
+    cin >> answer;
+
+    if(answer== 2);
+    score++;
+
+    cout <<"\n Q2. Which Keyword is used to12
+     create object?\n";
+         cout <<"1. Class\n2.Object\n3. new\n4.Create\n";
+    cout <<"Enter answer:";
+    cin >> answer;
+
+    if(answer==3)
+    score++;
+
+   cout <<"\nQ3.Which is not a programming language?\n";
+cout <<"1. C\n2.C++\n3.HTML\n4.Python\n" ;
+ cout <<"Enter answer:";
+   cin >> answer;
+if(answer==3)
+score++;
+
+cout<<"\nStudent Name:"<<name;
+cout<< "\n Your Score:" << score<<"/3";
+if(score>=2)
+
+    cout<< "\nResult:Pass";
+else
+cout<< "\nResult: Fail";
+return 0;
+}
